@@ -3,6 +3,7 @@
 ## Objective
 Develop a dashboard mapping sporting facilities in one region of Berlin, using municipal recreational data and incorporating local health/social data, with goal of facilitating data-driven decision-making regarding resource allocation.
 
+## Sources
 
 ## Approach
 
@@ -10,4 +11,4 @@ Develop a dashboard mapping sporting facilities in one region of Berlin, using m
 
 ## Next Steps
 
-## Links + Further Information
+## Links & Resources
