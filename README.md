@@ -19,6 +19,7 @@ Tableau did not seem to natively support UTM (Universal Transverse Mercator) coo
 Weights were assigned to attributes of outdoor/formal sports facilities (BZR level) to evaluate their quality. The other two tables could not be used in this case, as they did not contain the same attributes as descriptors for sporting facilities. 
 
 Attributes were transformed into binary values, with higher scores indicating better quality. Taken into account was: security, proper lining, lighting, sound system, irrigation, containment fence, drainage, coach-zone. For the example run, "security" was given a higher weight, to indicate importance and urgency. This can be tweaked later, to suit the needs of the stakeholders:
+
 ![Screenshot 2023-10-31 at 22 45 14](https://github.com/JaydaBubel/IronHack_FinalProject/assets/129682724/ce0b2447-fe18-4787-a821-33ce24f07463)
 
 First, LabelEncoder from the scikit-learn library was used to convert categorical columns into binary values (1 or 0), and specifically encoded "security deficiency" as 1 for "No" and 0 for "Yes" (since this column would be negative if ticked, and all others would be positive). Then, an additional column called 'quality_score' was created, where a weighted scoring system was applied. This process ensures that each informal outdoor/uncovered facility's quality is assessed using a standardized scoring system.
