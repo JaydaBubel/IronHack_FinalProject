@@ -9,9 +9,18 @@ Develop a dashboard mapping sporting facilities in one region of Berlin, using m
 - Berlin Health and Social Atlas/Index 2022 - [Gesundheits- und Sozialstrukturatlas Berlin 2022](https://daten.berlin.de/datensaetze/gesundheits-und-sozialstrukturatlas-berlin-2022-indexwerte-auf-ebene-der-prognoseräume)
 
 ## Approach
+# Data Cleaning
+# Converting  Geocoordinate System
+# Scoring Outdoor Formal Facilities
+# Bringing Social/Health Data into Planning Zones
 
 ## Visualization
 
 ## Next Steps
+# Fine Tuning Map Features
+adding dyanmic zone, improving relationships between dataframes
+# Adding a third regional map layer
+# Responding to needs/reality of municipality
+
 
 ## Links & Resources
